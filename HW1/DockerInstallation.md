@@ -30,12 +30,12 @@ Creating customized docker image with Ubuntu 20.04 and SysBench and making "sysb
 4. ubuntusysbench = name of the image | 1.0 = tag for the image <br><br>
   ```docker build -t ubuntusysbench:1.0 .```
 
-<br><img width="1111" alt="image" src="https://github.com/Kartiki19/CloudComputing/assets/120880459/54369613-288d-440b-9c61-98674b9317f2">
-
 # Run container and check sysbench version
 1. As, we have built the image with sysbench as entry point, that will run as primary command to be executed when a container starts
 2. Thus, to get the version of sysbench running, add --version while running the container <br><br>
 ```docker run --rm ubuntusysbench:1.0 --version```
+
+<br><img width="1111" alt="image" src="https://github.com/Kartiki19/CloudComputing/assets/120880459/54369613-288d-440b-9c61-98674b9317f2">
 
 # Capture image ID
 ```docker images | grep ubuntusysbench```
