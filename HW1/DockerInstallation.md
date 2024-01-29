@@ -51,3 +51,8 @@ Creating customized docker image with Ubuntu 20.04 and SysBench:
 
 <br><img width="1325" alt="image" src="https://github.com/Kartiki19/CloudComputing/assets/120880459/8eb26f66-c953-4b47-a357-0aa6285fdf63">
 
+# Running Containers
+<br> To check all the running containers, run following command:
+
+```docker ps```
+
