@@ -9,3 +9,4 @@ RUN apt-get update && \
 
 # CMD instruction
 CMD ["/bin/bash"]
+
