@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Calculate Events/Sec
 cal_events_per_sec() {
 	local events=$1
@@ -18,7 +17,6 @@ run_sysbench_fileio(){
 	echo "result : $result"
 	sysbench --test=fileio --file-total-size=2G --file-test-mode=$parameter_val cleanup
 
-
 	total_time=$(echo "$result" | grep -oP "total time:\s+\K(\d+\.\d+)")
 	total_events=$(echo "$result" | grep -oP "total number of events:\s+\K(\d+)")
 	events_per_sec=$(cal_events_per_sec $total_events $total_time)
@@ -32,7 +30,7 @@ run_sysbench_fileio(){
 
 # Main Function
 # Creating a .csv file with header
-#echo "Test Mode,Parameter Value,Total Time(sec),Number of Events,Events/Sec" > sysbench_readings_fileio.csv
+echo "Test Mode,Parameter Value,Total Time(sec),Number of Events,Events/Sec" > sysbench_readings_fileio.csv
 
 # SysBench Test Mode = FileIo
 run_sysbench_fileio "$1"

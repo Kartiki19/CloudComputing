@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Calculate Events/Sec
 cal_events_per_sec() {
 	local events=$1
@@ -13,8 +12,6 @@ run_sysbench_test(){
 	local test_mode=$1
 	local parameter_val=$2
 	local readings
-
-	echo "Test Mode = $test_mode, Parmeter = $parameter_val"
 
 	for i in {1..5}; do
 		echo "Run : $i"
