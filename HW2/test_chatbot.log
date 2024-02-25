@@ -1,71 +1,71 @@
 
 ***** a. First request that does not call figlet:  *****
-Execution Time: 0.24541878700256348sec.
+Execution Time: 0.25027012825012207sec.
 
 
 ***** b. Second request that does not call figlet *****
-Execution Time: 0.24543476104736328sec.
+Execution Time: 0.26120996475219727sec.
 
 
 ******* c. Average over 10 requests that does not call figlet: *******
-Execution Time: 0.25540637969970703sec.
+Execution Time: 0.242356538772583sec.
 
-Execution Time: 0.2607905864715576sec.
+Execution Time: 0.25772905349731445sec.
 
-Execution Time: 0.2554788589477539sec.
+Execution Time: 0.24301433563232422sec.
 
-Execution Time: 0.2481992244720459sec.
+Execution Time: 0.2549903392791748sec.
 
-Execution Time: 0.2785065174102783sec.
+Execution Time: 0.254072904586792sec.
 
-Execution Time: 0.2692098617553711sec.
+Execution Time: 0.2611873149871826sec.
 
-Execution Time: 0.26167988777160645sec.
+Execution Time: 0.2526376247406006sec.
 
-Execution Time: 0.25420260429382324sec.
+Execution Time: 0.24989938735961914sec.
 
-Execution Time: 0.2572638988494873sec.
+Execution Time: 0.2500126361846924sec.
 
-Execution Time: 0.250016450881958sec.
+Execution Time: 0.24704742431640625sec.
 
-Average Execution Time: 0.2590754270553589 sec.
+Average Execution Time: 0.25129475593566897 sec.
 
 ******* d. First request that calls figlet *******
-Execution Time: 0.27081966400146484sec.
+Execution Time: 0.2690443992614746sec.
 
 
 ******* e. Second request that calls figlet *******
-Execution Time: 0.2601323127746582sec.
+Execution Time: 0.2779242992401123sec.
 
 ******* F. Second request that calls figlet that follows the first request that does not call figlet ******
 
-******* [f1]. First request that does not calls figlet *******
-Execution Time: 0.25006961822509766sec.
+******* [F1]. First request that does not calls figlet *******
+Execution Time: 0.24978995323181152sec.
 
 
-******* [12]. Second request that calls figlet *******
-Execution Time: 0.2602379322052002sec.
+******* [F2]. Second request that calls figlet *******
+Execution Time: 0.28388047218322754sec.
 
 
 ******* g. Average over 10 requests that do call figlet: *******
-Execution Time: 0.2737259864807129sec.
+Execution Time: 0.28928685188293457sec.
 
-Execution Time: 0.2625312805175781sec.
+Execution Time: 0.2810404300689697sec.
 
-Execution Time: 0.267810583114624sec.
+Execution Time: 0.2792658805847168sec.
 
-Execution Time: 0.2729833126068115sec.
+Execution Time: 0.27483582496643066sec.
 
-Execution Time: 0.29201841354370117sec.
+Execution Time: 0.3368504047393799sec.
 
-Execution Time: 0.27027201652526855sec.
+Execution Time: 0.2712249755859375sec.
 
-Execution Time: 0.27135705947875977sec.
+Execution Time: 0.27087974548339844sec.
 
-Execution Time: 0.2730529308319092sec.
+Execution Time: 0.27902865409851074sec.
 
-Execution Time: 0.2629251480102539sec.
+Execution Time: 0.26952528953552246sec.
 
-Execution Time: 0.26994943618774414sec.
+Execution Time: 0.27297163009643555sec.
 
-Average Execution Time: 0.27166261672973635 sec.
+Average Execution Time: 0.28249096870422363 sec.

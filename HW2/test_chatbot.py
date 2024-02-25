@@ -36,7 +36,7 @@ for testcase in range(2):
 # f. Second request that calls figlet that follows the first request that does not call figlet
 print("******* F. Second request that calls figlet that follows the first request that does not call figlet ******")
 queries = ["What is todays date ?", "figlet for Hello Kartiki"]
-testcases = ["[f1]. First request that does not calls figlet", "[12]. Second request that calls figlet"]
+testcases = ["[F1]. First request that does not calls figlet", "[F2]. Second request that calls figlet"]
 for testcase in range(2):
     print("\n******* " + testcases[testcase] + " *******")
     invoke_chatbot(queries[testcase])
