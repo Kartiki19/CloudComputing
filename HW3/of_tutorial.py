@@ -102,7 +102,7 @@ class Tutorial (object):
     Handles packet in messages from the switch.
     """
     ## For observing traffic on switches
-    log.info("Switch observing traffic: %s" (self.connection))
+    log.info("Switch observing traffic: %s" %(self.connection))
 
     packet = event.parsed # This is the parsed packet data.
     if not packet.parsed:
